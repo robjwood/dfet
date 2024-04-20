@@ -1,0 +1,27 @@
+/* LINKS
+===========================================
+===========================================*/
+
+a {
+  color: var(--color-action);
+  text-decoration-thickness: 0.1ex;
+  text-underline-offset: 0.1ex;
+}
+
+a:hover {
+  text-decoration-thickness: 0.2ex;
+  text-underline-offset: 0.3ex;
+  transition: all 0.1s ease;
+}
+
+
+a:focus {
+}
+
+a:active {
+}
+
+/* Add extra vertical padding to all links in a list that are not displayed horizontally using .o-cluster */
+ul:not(.o-cluster) > li:has(a) {
+  padding-block: var(--spacing-xs);
+}
