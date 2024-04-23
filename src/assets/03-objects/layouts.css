@@ -1,0 +1,13 @@
+/* OBJECTS
+===========================================
+===========================================*/
+
+.o-wrapper {
+  margin-inline: auto;
+  max-inline-size: 1090px;
+  padding-inline: var(--spacing-base);
+}
+
+.o-centre {
+  text-align: center;
+}

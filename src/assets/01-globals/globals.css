@@ -1,0 +1,18 @@
+/* GLOBALS
+===========================================
+===========================================*/
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-primary-300);
+  font-family: var(--font-base);
+  font-size: var(--font-size-base);
+}
+
+p {
+  font-weight: 300;
+}
+
+.flow > * + * {
+  margin-block-start: var(--flow-space);
+}

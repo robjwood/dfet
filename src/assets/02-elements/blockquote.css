@@ -1,0 +1,21 @@
+/* BLOCKQUOTE
+===========================================
+===========================================*/
+
+blockquote {
+  border-top: 2px solid var(--grey-200);
+  border-bottom: 2px solid var(--grey-200);
+  color: var(--color-primary-500);
+  font-size: var(--font-size-xl);
+  font-weight: 300;
+  padding: var(--spacing-xl) var(--spacing-l);
+}
+
+cite {
+  display: block;
+  color: var(--color-primary-300);
+  font-weight: 400;
+  font-size: var(--font-size-s);
+  font-style: normal;
+  margin-top: var(--spacing-s);
+}
