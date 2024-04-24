@@ -4,6 +4,7 @@
       @submit.prevent="submitForm"
       v-if="!isFormSubmittedSuccessfully"
       class="flow"
+      novalidate
     >
       <div class="form-group">
         <label for="name">Your name</label>
@@ -112,6 +113,8 @@
     }
   }
 
+  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  
   function validateForm() {
     formErrors.value = {}; // Clear previous errors
 
@@ -122,6 +125,8 @@
       formErrors.value.number = "Error: Please enter a telephone number";
     }
     if (!formData.value.email) {
+      formErrors.value.email = "Error: Please enter an email";
+    } else if (!emailPattern.test(formData.value.email)) { // Check if email format is correct
       formErrors.value.email = "Error: Please enter a valid email";
     }
     if (!formData.value.message) {
