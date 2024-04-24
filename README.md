@@ -27,7 +27,6 @@
 ## API fetching
 
 + I got the data from the endpoint but it didn't return a full path for the images. For this example I copied the images locally but used the path from the endpoint.
-+   
 
 ## Accessibility
 
