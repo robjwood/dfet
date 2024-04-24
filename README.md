@@ -5,7 +5,7 @@
 ## Technology
 
 + I started writing this using 11ty initially as I felt that the site could benefit from the bulk of it being served as a mostly static site. In the end I changed my mind and went with a Vue SPA to support the requirement to show examples of Vue 3.
-+ It's possible to use Vue 3 as a standalone script in 11ty but it needs a specific plugin in order to work. In the real world if the site didn't have a heavy need for interaction that needed to manage state I would build it in 11ty without any Vue component. In 11ty you can get a similar experience to Vue's components using Nunjuck macros or 11ty's WebC components.
++ It's possible to use Vue 3 as a standalone script in 11ty but it needs a specific plugin in order to work. In the real world if the site didn't have a heavy need for interaction that needed to manage state I would build it in 11ty without any Vue components. In 11ty you can get a similar experience to Vue's components using Nunjuck macros or 11ty's WebC components (or use the Nuxt to get server-side rendering).
 
 ## Structure
 
