@@ -10,17 +10,17 @@
 ## Structure
 
 + As I was using Vue, I decided to split each section of the page into their own components.
-+ The quote component could potentially be used elsewhere with the same styles but different content so I made this as re-usable as possible by using slots to allow for using different content. I used this component as an example but other components could be modified to make them more reusable if it was required for the project. 
++ The quote component could potentially be used elsewhere with the same styles but different content so I made this as re-usable as possible by using slots to allow for using different content. I used this component as an example but other components could also be modified to make them more reusable if needed. 
 
 
 ## Header
 
-+ The primary nav hides behind a hamburger menu which reveals the menu sliding in from the  the right.
++ The primary nav hides behind a hamburger menu which reveals the menu sliding in from the right.
 + The hamburger icon uses an SVG path which is swapped for a different path when the menu is open to show the close icon.
 
 ## Contact form
 
-+ As the and the error messages for this form needed bespoke styling I created some custom validation in Vue. Often it makes more sense to make these completely bespoke rather than try to lean too heavily on the browser defaults and try to style those. I added `novalidate` to the form to suppress these browser warnings.   
++ As the error messages for this form needed bespoke styling I created some custom validation in Vue. Often it makes more sense to make these completely bespoke rather than try to lean too heavily on the browser defaults and try to style those. I added `novalidate` to the form to suppress these browser warnings.   
 + I initially set the email validation to update as the user typed to give them some instant feedback. The problem with this is that it can be jarring for the user if an error is generated while they're in the process of typing their email.
 
 
