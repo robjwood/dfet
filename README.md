@@ -31,14 +31,14 @@
 ## Accessibility
 
 + I tested the page by tabbing through the fields with a keyboard.
-+ I also used the the Deque browser tool and the Lighthouse extension in Chrome.
++ I also used the the Deque browser tool and the Lighthouse extension in Chrome to catch any serious issues.
 
 
 ## CSS
 
 + I split the CSS into multiple files for the global styles. They start general then get more specific. The component styles are handled in the components themselves using scoped SCSS.
-+ I use CSS custom properties (variables) to set commonly used values to use throughout the site.
-+ I've set the max-width as utility classes based on the widths I found in the Sketch file. I named them by relative sizes in case the actual widths change.
++ I use CSS custom properties (variables) to set commonly used values to throughout the site.
++ I created some `max-width` utility classes as there were a few different widths used in the design. I named them by relative sizes in case the actual widths change. In the real world there could be a set of `max-width`s based on CSS custom properties.
 
 
 ## Potential improvements
