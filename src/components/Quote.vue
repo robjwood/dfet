@@ -1,12 +1,8 @@
 <template>
-  <blockquote class="o-wrapper"
-    style="max-width: 1090px"
-  >
+  <blockquote class="o-wrapper max-width-l">
     <div>
       <div class="quote">
-        <svg width="100" height="66" viewBox="0 0 100 66" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path id="icon/solid/speach-marks" fill-rule="evenodd" clip-rule="evenodd" d="M32.8809 0V5.20508C25.4329 9.09833 20.1009 13.1608 16.8848 17.3926C13.6686 21.6244 12.0605 26.237 12.0605 31.2305C12.0605 34.1927 12.4837 36.224 13.3301 37.3242C14.0918 38.5091 15.0228 39.1016 16.123 39.1016C17.2233 39.1016 18.7044 38.7842 20.5664 38.1494C22.4284 37.5146 24.1211 37.1973 25.6445 37.1973C29.1146 37.1973 32.1403 38.4879 34.7217 41.0693C37.3031 43.6507 38.5938 46.8034 38.5938 50.5273C38.5938 54.5899 37.028 58.081 33.8965 61.001C30.765 63.9209 26.8718 65.3809 22.2168 65.3809C16.5462 65.3809 11.4258 62.9265 6.85547 58.0176C2.28513 53.1087 0 47.0573 0 39.8633C0 31.3997 2.8141 23.5075 8.44238 16.1865C14.0707 8.86552 22.2167 3.47007 32.8809 0ZM93.4375 0.380859V5.20508C84.8893 10.114 79.2611 14.515 76.5527 18.4082C73.8444 22.3015 72.4902 26.8717 72.4902 32.1191C72.4902 34.4889 72.9557 36.2663 73.8867 37.4512C74.8177 38.6361 75.791 39.2285 76.8066 39.2285C77.7376 39.2285 79.1341 38.89 80.9961 38.2129C82.8581 37.5358 84.72 37.1973 86.582 37.1973C90.0521 37.1973 93.0778 38.4456 95.6592 40.9424C98.2406 43.4391 99.5312 46.5071 99.5312 50.1465C99.5312 54.2936 97.902 57.8906 94.6436 60.9375C91.3851 63.9844 87.3861 65.5078 82.6465 65.5078C77.0605 65.5078 72.0248 63.0957 67.5391 58.2715C63.0534 53.4472 60.8105 47.4382 60.8105 40.2441C60.8105 31.3574 63.6458 23.2536 69.3164 15.9326C74.987 8.61162 83.0273 3.42775 93.4375 0.380859Z" fill="#F56A75"/>
-        </svg>
+        <img src="/images/quotes.png" alt="">
       </div>
       <div class="flow">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -20,19 +16,40 @@
 </script>
 
 <style lang="scss" scoped>
-blockquote > div {
-  display: flex;
-  gap: var(--spacing-l);
-}
+  blockquote {
+    border-top: 2px solid var(--grey-200);
+    border-bottom: 2px solid var(--grey-200);
+    color: var(--color-primary-500);
+    font-size: var(--font-size-xl);
+    font-weight: 300;
+    padding: var(--spacing-xl) var(--spacing-l);
 
-  blockquote .quote {
-    margin-top: var(--spacing-s);
+    @media (min-width: 645px) {
+      padding: 72px var(--spacing-3xl);
+    }
   }
-  
-  blockquote .quote,
-  blockquote svg {
-    width: 50px;
-    height: 33px;
-  }
+
+    blockquote > div {
+      display: flex;
+      gap: var(--spacing-l);
+    }
+
+      blockquote img {
+        min-width: 30px;
+        
+        @media (min-width: 645px) {
+          min-width: 50px;
+        }
+      }
+
+    cite {
+      display: block;
+      color: var(--color-primary-300);
+      font-weight: 400;
+      font-size: var(--font-size-s);
+      font-style: normal;
+      margin-top: var(--spacing-s);
+    }
+
 </style>
   

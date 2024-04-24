@@ -1,23 +1,11 @@
 <template>
   <section>
-    <div class="o-wrapper o-centre flow"
-      style="max-width: 914px"
-    >
+    <div class="o-wrapper o-centre flow max-width-m">
       <h1>We Do Awesome things</h1>
       <p class="subheading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       
       <div class="promo">
-        <img src="/images/tropical-summer.png" alt="tropical-summer" width="914">
-
-        <!--
-        <form id="book" action="" method="post" novalidate>
-          <label for="code">Enter your secret code</label>
-          <input type="code" id="code" name="code">
-          <span class="error" aria-live="polite"></span>
-
-          <button type="submit">Book</button>
-        </form>
-        -->
+        <img src="/images/tropical-summer.png" alt="tropical-summer">
       </div>
 
       <div id="bookConfirmation" style="display: none;">

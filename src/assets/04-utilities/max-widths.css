@@ -1,0 +1,16 @@
+/* MAX-WIDTHS
+===========================================
+===========================================*/
+
+.max-width-s {
+  max-inline-size: 720px;
+}
+
+.max-width-m {
+  max-inline-size: 914px;
+}
+
+.max-width-l {
+  max-inline-size: 1090px;
+}
+

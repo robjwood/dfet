@@ -1,5 +1,5 @@
 <template>
-  <Intro class="intro" />
+  <Intro />
   <CallNowBanner />
   <Services />
   <Quote />
@@ -17,7 +17,4 @@ import Services from '@/components/Services.vue'
 </script>
 
 <style lang="scss" scoped>
-.intro {
-  margin-block-end: var(--spacing-2xl);
-}
 </style>

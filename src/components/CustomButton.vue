@@ -9,7 +9,6 @@
   >
     <slot></slot>
   </component>
-  <!-- <button class="btn"></button> -->
 </template>
 
 <script setup>
@@ -46,9 +45,6 @@ const purposeClass = computed(() => {
     return 'primary';
   }
 });
-
-
-
 </script>
 
 <style lang="scss" scoped>
@@ -57,7 +53,7 @@ const purposeClass = computed(() => {
   color: var(--white);
   display: inline-block;
   font-size: var(--font-size-xs);
-  padding: var(--spacing-base) var(--spacing-l);
+  padding: var(--spacing-base) var(--spacing-xl);
   border: none;
   border-radius: var(--spacing-s);
   text-decoration: none;

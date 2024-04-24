@@ -16,12 +16,19 @@ import TheLogo from '@/components/TheLogo.vue'
   background-color: var(--color-primary-500);
   color: var(--white);
   margin-block-start: var(--spacing-xl);
+  padding-block: var(--spacing-2xl);
+  padding-inline: var(--spacing-l);
 }
 
   .footer > * {
     display: flex;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: space-between;
     gap: var(--spacing-xl);
+
+    @media (min-width: 645px) {
+      flex-direction: row;
+    }
   }
 </style>

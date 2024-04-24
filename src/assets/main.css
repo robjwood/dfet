@@ -1,8 +1,8 @@
 @import './vars.css';
 @import './01-globals/globals.css';
 @import './01-globals/reset.css';
-@import './02-elements/blockquote.css';
 @import './02-elements/headings.css';
 @import './02-elements/images.css';
 @import './02-elements/links.css';
 @import './03-objects/layouts.css';
+@import './04-utilities/max-widths.css';

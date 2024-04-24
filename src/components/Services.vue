@@ -1,8 +1,6 @@
 <template>
   <section class="services flow">
-    <div class="o-wrapper o-centre o-block flow"
-      style="max-width: 718px"
-    >
+    <div class="o-wrapper o-centre o-block flow max-width-s">
       <h2>We Do Really Awesome Things</h2>
       <p class="subheading">Lorem ipsum dolor sit amet, <a href="#">link</a> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
@@ -48,12 +46,21 @@ async function fetchServices() {
 <style lang="scss" scoped>
 .services {
   padding-block: var(--spacing-2xl);
+
+  @media (min-width: 645px) {
+    padding-block: var(--spacing-3xl);
+  }
 }
 
   .services .columns {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: var(--spacing-xl);
+    padding-block-start: var(--spacing-xl);
+
+    @media (min-width: 645px) {
+      padding-block: var(--spacing-2xl);
+    }
   }
 
 </style>
