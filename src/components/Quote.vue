@@ -5,8 +5,10 @@
         <img src="/images/quotes.png" alt="">
       </div>
       <div class="flow">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <cite>Roy Barber - Dotcentric</cite>
+        <slot />
+        <cite>
+          <slot name="cite"></slot>
+        </cite>
       </div>
     </div>
   </blockquote>
@@ -32,6 +34,10 @@
     blockquote > div {
       display: flex;
       gap: var(--spacing-l);
+
+      @media (min-width: 645px) {
+        gap: var(--spacing-xl);
+      }
     }
 
       blockquote img {
@@ -48,7 +54,11 @@
       font-weight: 400;
       font-size: var(--font-size-s);
       font-style: normal;
-      margin-top: var(--spacing-s);
+      margin-top: var(--spacing-base);
+      
+      @media (min-width: 645px) {
+        margin-top: var(--spacing-xl);
+      }
     }
 
 </style>

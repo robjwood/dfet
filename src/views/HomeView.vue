@@ -1,8 +1,15 @@
 <template>
   <Intro />
+
   <CallNowBanner />
+
   <Services />
-  <Quote />
+
+  <Quote>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <template #cite>Roy Barber - Dotcentric</template>
+  </Quote>
+
   <Contact />
 
 </template>

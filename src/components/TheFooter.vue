@@ -2,7 +2,7 @@
   <div class="footer">
     <div class="o-wrapper">
       <p>&copy; 2021 <a href="https://www.dotcentric.co.uk/">Dotcentric</a> Code Test - All rights reserved - Call 01234 432 123</p>
-      <img src="/images/logo-footer.png">
+      <img src="/images/logo-footer.png" alt="Code TEST">
     </div>
   </div>
 </template>

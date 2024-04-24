@@ -14,7 +14,7 @@
       >
         <img
           :src="`${service.image}`"
-          :alt="service.image"
+          alt=""
           width="150"
         >
         <h3>{{ service.name }}</h3>

@@ -7,10 +7,6 @@
       <div class="promo">
         <img src="/images/tropical-summer.png" alt="tropical-summer">
       </div>
-
-      <div id="bookConfirmation" style="display: none;">
-        <p>Thank you for your submission! We will get back to you shortly.</p>
-      </div>
     </div>
   </section>
 </template>
