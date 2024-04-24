@@ -1,6 +1,6 @@
 # Approach
 
-+ I focused on the content and the markup first to make sure it was semantic and accessible and made as much use of the browsers capabilities
++ I focused on the content and the markup first to make sure it was semantic and accessible and made as much use of the browsers capabilities as possible.
 
 ## Technology
 
