@@ -44,6 +44,6 @@
 ## Potential improvements
 
 + I've used Vue components but it may be worth considering if web components could be used effectively.
-+ Compress the images larger images more aggressively.
++ Compress the larger images more aggressively.
 + Writing automated accessibility test would help to catch more obvious accessibility issues while developing.
 + Some of the light grey on white text doesn't provide sufficient contrast so I'd suggest using a darker grey.
